@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-master-class",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitkolapkar/nodejs-master-class.git"
+  },
+  "author": "Rohit Kolapkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohitkolapkar/nodejs-master-class/issues"
+  },
+  "homepage": "https://github.com/rohitkolapkar/nodejs-master-class#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
