@@ -17,6 +17,7 @@
   "homepage": "https://github.com/rohitkolapkar/nodejs-master-class#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "joi": "^13.1.0",
     "mongoose": "^5.4.17",
     "underscore": "^1.9.1"
   },
