@@ -1,0 +1,1 @@
+mongoimport --db mongo-exercises --collection courses --file exercise-data.json --jsonArray
