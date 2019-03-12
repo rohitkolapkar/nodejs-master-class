@@ -1,3 +1,5 @@
+
+//const asyncMiddleware=require('../middleware/async');
 const auth=require('../middleware/auth');
 const admin=require('../middleware/admin');
 const{Genre,validateGenres}=require('../models/genre');
@@ -6,9 +8,20 @@ const express=require('express');
 
 const router=express.Router();
 
-router.get('/',async (req,res)=>{
-    const genres=await Genre.find();
-    res.send(genres);
+// router.get('/',async (req,res,next)=>{
+//     try{
+//         const genres=await Genre.find();
+//         res.send(genres);
+//     }
+//     catch(ex){
+//         next(ex);
+//     }
+
+// });
+
+router.get('/',async (req,res,next)=>{
+        const genres=await Genre.find();
+        res.send(genres);
 });
 
 router.post('/',auth,async (req,res)=>{
