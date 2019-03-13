@@ -1,3 +1,7 @@
+// this error.js is only for express - request processing pipeline 
+
+//any error in the app itself will not be handled by this. 
+
 const winston=require('winston');
 
 module.exports=function(err,req,res,next){
