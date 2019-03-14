@@ -1,20 +1,13 @@
 {
-  "name": "nodejs-master-class",
+  "name": "vidly-project-final",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rohitkolapkar/nodejs-master-class.git"
+    "test": "jest --watchAll"
   },
   "author": "Rohit Kolapkar",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rohitkolapkar/nodejs-master-class/issues"
-  },
-  "homepage": "https://github.com/rohitkolapkar/nodejs-master-class#readme",
   "dependencies": {
     "bcrypt": "^3.0.4",
     "config": "^3.0.1",
@@ -36,6 +29,5 @@
   },
   "devDependencies": {
     "jest": "^24.5.0"
-  },
-  "description": ""
+  }
 }
